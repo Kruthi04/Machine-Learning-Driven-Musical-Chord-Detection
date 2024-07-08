@@ -1,0 +1,129 @@
+*{
+     margin:0;
+     padding:0;
+}
+      @media (max-width: 640px) { .btn {font-size:10px;padding:0px;} .tuber {font-size:20px;} #home {margin-top:25%;}}
+      @media (max-width:960px) { .btn {font-size:15px;padding:20px;} .tuber {font-size:25px;} #home {margin-top:20%;}}
+      @media (min-width:1100px) { .btn {font-size:20px;padding:40px;} .tuber {font-size:30px;} #home {margin-top:8%;}}
+
+
+  .divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+ body{
+        width:100%;
+       background-color:#FFF;
+       border:5px solid white;
+       color:black;
+
+}
+.tuber{
+         width:100%;
+          color:white;
+          text-align:center;
+          font-weight:600;
+         position:fixed;
+         font-style:red serif;
+         letter-spacing: 3px;
+         text-shadow: 2px 2px 5px green;
+         left:0px;
+        top:0px;
+         border:5px solid #FDA;
+         font-family:san-sarif;
+         background-color:black;
+  }
+.head{
+margin-top:0px;
+height:13%;
+ padding:15px 0px;
+ word-spacing:6px;
+}
+.menu{
+color:white;
+padding:18px 0px 0px 0px;
+top:12%;
+}
+
+.btn{
+         font-weight:600;
+         text-shadow: 2px 2px 2px blue;
+         color:white;
+         padding:0px 2%;
+         margin-top:-30px;
+    }
+
+.content{
+         width:100%;
+         height:40vh;
+        letter-spacing: 2px;
+        margin-top:5%;
+}
+
+  div a{
+         color:white;
+        text-decoration:none;
+}
+
+.btn:hover{
+color:yellow;
+background-color:green;
+}
+
+
+.middleCard{
+width:70%;
+height:68vh;
+background-color:white;
+box-shadow:1px 1px 3px 6px #AAA;
+}
+
+.gaborImages{
+border:2px solid black;
+
+}
+.filter_images{
+margin-top:0%;
+margin-left:15%;
+}
+
+#logout{background-color:red;}
+
+
+.modelMenu{
+width:12%;
+height:100%;
+position:fixed;
+background-color:black;
+top:168px;
+left:0px;
+padding-top:8%;
+}
+
+.modelMenuBtn{
+margin:10px 5px;
+border-radius:15px;
+padding:5%;
+width:90%;
+background-color:blue;
+}
+
+.save_button{
+border-radius:15px;}
+
+.filter_buttons{
+left:0px;
+float:left;
+}
